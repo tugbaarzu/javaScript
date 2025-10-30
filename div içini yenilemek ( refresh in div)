@@ -1,6 +1,0 @@
-// div içini 10 saniyede 1 kez yenilemek
-
-var seconds = 10;
-setInterval(function() {
-    $('.istek').load(window.location.href +  ' #istek');
-}, seconds*1000);
