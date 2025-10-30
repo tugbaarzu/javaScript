@@ -1,9 +1,0 @@
-// Üyelik şartlarını kabul etmeden (checkboxu işaretlemeden) formu post ettirmeme
-
-  if(!$('#id').is(':checked')){
-      alert('şartları kabul edin');
-      return false;
-  }else{
-      return true;
-  }
-
